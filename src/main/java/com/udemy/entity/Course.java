@@ -15,20 +15,20 @@ public class Course {
 	@Column(name="id")
 	private int id;
 	
-	@Column (name="name")
+	@Column(name="name")
 	private String name;
 	
-	@Column (name="description")
+	@Column(name="description")
 	private String description;
 	
-	@Column (name="price")
+	@Column(name="price")
 	private int price;
 	
-	@Column (name="hours")
+	@Column(name="hours")
 	private int hours;
 
 	public Course() {
-	}
+	};
 
 	public Course(int id, String name, String description, int price, int hours) {
 		super();
